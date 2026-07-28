@@ -1,6 +1,6 @@
 import { task } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
-import { Counter } from "../typechain-types";
+// import { Counter } from "../typechain-types";
 import { cofhejs, FheTypes } from "cofhejs/node";
 import { cofhejs_initializeWithHardhatSigner } from "cofhe-hardhat-plugin";
 import { getDeployment } from "./utils";
